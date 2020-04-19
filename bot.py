@@ -20,7 +20,7 @@ import os
 from queue import Queue
 from threading import Thread
 from telegram import Bot
-from telegram.ext import Dispatcher, MessageHandler, Updater
+from telegram.ext import Dispatcher, MessageHandler, Updater, CommandHandler
 
 TOKEN = os.environ.get('TOKEN')
 
